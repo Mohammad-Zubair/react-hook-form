@@ -22,7 +22,7 @@ input[type="number"],
 input[type="data"] {
   display: block;
   width: 400px;
-  padding: 6px 12px;
+  padding: 10px 12px;
   font-size: 14px;
   line-height: 1.4285;
   color: #ffffff;
@@ -40,4 +40,20 @@ input[type="data"] {
 
 .form-control {
   margin-bottom: 20px;
+}
+
+.use-field-array {
+  .input-with-remove {
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  button {
+    margin-bottom: 15px;
+  }
 }

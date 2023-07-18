@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import YouTubeForm from "./components/YouTubeForm";
 
 function App() {
